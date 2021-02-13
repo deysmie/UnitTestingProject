@@ -30,7 +30,7 @@ namespace UnitTestingProject
             Console.WriteLine("Input End Number");
             int endNumber = int.Parse(Console.ReadLine());
             var output = CheckOddEvenNumbers(startNumber, endNumber);
-            Console.WriteLine(output);
+            Console.WriteLine($"Result of Addition of Even/Odd Numbers {output}");
         }
 
         
